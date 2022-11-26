@@ -30,6 +30,8 @@ Para rodar estas aplicações será necessário, primeiramente escolher a que de
 Inicializando o back-end
 ### Servidor
 ```bash
+  - composer install
+  - npm install
   - php artisan migrate
   - php artisan db:seed --class=UserProfile
   - php artisan serve
